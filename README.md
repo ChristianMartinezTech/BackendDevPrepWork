@@ -2,17 +2,16 @@
 
 Repository specific for studying BackEnd Technical interview questions.
 
-# Main Mission:
-* Microservices (Python)
+# MainMission:
+* SoftwareArquitecture => Microservices (Python)
 * Documentation ¿?
 * Testing (Unitest? In GO)
-* Software Arquitecture
 * API Deployment
 * Routing (Enrutamiento)
 
 ***Aditionally, I'm expected to solve 1 LeetCode problem a day.***
 
-### Bonus points
+### BonusPoints
 * Docker Basics
 * Aws Basics
 * Re-review SQL
@@ -36,3 +35,6 @@ Repository specific for studying BackEnd Technical interview questions.
 * Re-review Flask
 * Django
 * Selenium
+
+### References
+* https://github.com/arialdomartini/Back-End-Developer-Interview-Questions
