@@ -22,9 +22,9 @@ def fizzBuzz(self, n):
             x = "Buzz"
         if (x % 5) == 0:
             x = "Fizz"
-
     return x
 """
+
 
 def main(*args):
     print(opening_message)
@@ -32,3 +32,7 @@ def main(*args):
 
     print(argv)
     print(input)
+
+
+if __name__ == "__main__":
+    main()
