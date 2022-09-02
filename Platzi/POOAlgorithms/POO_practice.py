@@ -18,7 +18,7 @@ class SoccerClub(League):
         self.trophies = trophies
         self.league = league
 
-la_liga = League(real_madrid.__name__, 16, "spain")
+la_liga = League(SoccerClub.__name__, 16, "spain")
 print(la_liga.teams)
 print(la_liga.no_teams)
 print(la_liga.country)
