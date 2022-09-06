@@ -7,3 +7,6 @@ Upon looking in the process we realize this is runinning in the container's port
 
 ### Ckeing Nginx logs
 * sudo docker logs proxy
+
+### Other commands
+* sudo docker exec -it containername bash (to open the terminal of an active container)
