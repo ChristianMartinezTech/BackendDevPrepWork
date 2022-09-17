@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """
+https://leetcode.com/problems/two-sum
+
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -22,6 +24,20 @@ Only one valid answer exists.
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 """
 
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        
+def twoSum(nums, target):
+    """ With range(len we refence the index, 
+    by only ranging over nums we refence the value, not the index"""
+
+    for i in range(len(nums)): 
+        for j in range(i + 1, len(nums)):
+            if nums[j] == target - nums[i]: # Chenged from i + j == target for running time issues
+                return [i, j]
+
+
+def main():
+    response = twoSum([2,7,11,15], 9)
+    print(response)
+    
+
+if __name__ == '__main__':
+  main()
